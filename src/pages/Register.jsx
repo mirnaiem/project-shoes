@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import GoogleLogin from "../components/GoogleLogin";
+import useAuth from "../hooks/useAuth";
 
 const Register = () => {
+  const {createUser}=useAuth()
  const handleRegister=(e)=>{
 e.preventDefault()
 const form=e.target;
@@ -9,6 +11,9 @@ const email=form.email.value;
 const password=form.pass.value;
 const confirmPass=form.confirmPass.value;
 console.log(email,password,confirmPass);
+if(password === confirmPass){
+  createUser(email,password)
+}
  }
  return (
   <div className="hero min-h-screen bg-base-200">

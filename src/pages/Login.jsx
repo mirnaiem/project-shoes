@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 import GoogleLogin from "../components/GoogleLogin";
+import useAuth from "../hooks/useAuth";
 
 const Login = () => {
+  const {signInUser}=useAuth()
   const handleLogin=(e)=>{
     e.preventDefault()
     const form=e.target;
     const email=form.email.value;
     const password=form.pass.value;
-    
+    signInUser(email,password)
     console.log(email,password);
      }
  return (

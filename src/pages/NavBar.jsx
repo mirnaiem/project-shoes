@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import useAuth from "../hooks/useAuth";
 
 const NavBar = () => {
+  const {logOut}=useAuth()
  return (
   <div className="navbar bg-base-100">
   <div className="navbar-start">
@@ -29,9 +31,11 @@ const NavBar = () => {
         <li className="text-xl"><Link to="/about">About US</Link></li>
     </ul>
   </div>
-  <div className="navbar-end">
+  <div className="navbar-end gap-3">
     <Link to="/login" className="btn bg-[#01cf87] text-lg text-white">Login</Link>
+    <button onClick={()=>logOut()}  className="btn bg-red-400 text-lg text-white">LogOut</button>
   </div>
+  
 </div>
  );
 };
