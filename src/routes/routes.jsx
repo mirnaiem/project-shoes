@@ -6,6 +6,7 @@ import DashboardLayout from "../layouts/DashboardLayout";
 import About from "../pages/About";
 import Login from "../pages/Login";
 import Home from "../pages/Home";
+import Register from "../pages/Register";
 
 
 
@@ -42,5 +43,9 @@ children:[{
  {
   path:'login',
   element:<Login/>
+ },
+ {
+  path:'register',
+  element:<Register/>
  },
 ]);
