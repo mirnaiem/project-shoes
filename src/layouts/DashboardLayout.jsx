@@ -1,7 +1,9 @@
 import { Link, Outlet } from "react-router-dom";
+import useAuth from "../hooks/useAuth";
 
 
 const DashboardLayout = () => {
+  const {user}=useAuth()
  return (
   <div className="drawer lg:drawer-open">
   <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
@@ -16,8 +18,13 @@ const DashboardLayout = () => {
     <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label> 
     <ul className="menu p-4 w-80 min-h-full bg-indigo-700 text-base-content">
       {/* Sidebar content here */}
-      <img className="rounded-full my-14 " src="" alt="this is image" />
+      <div className="mx-auto my-14 ">
+      <img className="rounded-full w-[150px] " src={user?.photoURL} alt="this is image" />
+      <h1 className="text-3xl text-white mt-2 text-center">{user?.displayName}</h1>
+      </div>
+
       <li className="text-center text-xl text-white hover:bg-slate-400 hover:rounded-lg "><Link  to='/'>Home</Link></li>
+      <li className="text-center text-xl text-white hover:bg-slate-400 hover:rounded-lg "><Link  to='/allproducts'>All Products</Link></li>
       <li className="text-center text-xl text-white hover:bg-slate-400 hover:rounded-lg  "><Link to='/about'>About</Link></li>
     </ul>
   

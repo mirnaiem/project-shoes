@@ -9,6 +9,7 @@ import Home from "../pages/Home";
 import Register from "../pages/Register";
 import Private from "./private/Private";
 import SeeDetails from "../components/SeeDetails";
+import AllProducts from "../components/AllProducts";
 
 
 
@@ -51,10 +52,17 @@ export const router = createBrowserRouter([
  {
 path:'',
 element:<DashboardLayout/>,
-children:[{
+children:[
+  {
  path:'dashboard',
  element:<Private><Dashboard/></Private>
-}]
+},
+  {
+ path:'allproducts',
+ element:<Private><AllProducts/></Private>,
+ loader:()=>fetch('http://localhost:3000/shoes')
+},
+]
  },
 
 ]);
