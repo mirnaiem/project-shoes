@@ -2,17 +2,17 @@
   "shoes": [
     {
       "id": "001",
-      "title": "Air Max 90",
+      "title": "Air Max 80",
       "brand": "Nike",
-      "price": 160,
+      "price": "160",
       "description": "The Nike Air Max 90 stays true to its roots with the iconic Waffle sole, stitched overlays, and classic TPU accents. Fresh colors give a modern look while Max Air cushioning adds comfort to your journey.",
       "photo": "https://img.freepik.com/free-photo/ice-coffee-with-whipped-cream_144627-3801.jpg?t=st=1716799914~exp=1716803514~hmac=2d5cc974cc74731cb1a2d75a8df6a38cf7bbd583e0c53e640d58bc5beee431f7&w=740"
     },
     {
       "id": "002",
-      "title": "UltraBoost 21",
+      "title": "UltraBoost 24",
       "brand": "Adidas",
-      "price": 60,
+      "price": "70",
       "description": "The Adidas UltraBoost 21 brings you the ultimate running experience. It features a precise knit upper, responsive Boost cushioning, and a supportive heel counter to keep you moving comfortably.",
       "photo": "https://img.freepik.com/premium-photo/hand-holds-hanging-gray-running-sneakers-by-laces-black-wall-hand-with-new-sport-shoe-stability-cushion-running-shoes-close-up_179369-789.jpg?w=360"
     },

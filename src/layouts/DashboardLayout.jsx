@@ -26,7 +26,6 @@ const DashboardLayout = () => {
       <li className="text-center text-xl text-white hover:bg-slate-400 hover:rounded-lg "><Link  to='/'>Home</Link></li>
       <li className="text-center text-xl text-white hover:bg-slate-400 hover:rounded-lg "><Link  to='/allproducts'>All Products</Link></li>
       <li className="text-center text-xl text-white hover:bg-slate-400 hover:rounded-lg "><Link  to='/addproducts'>Add Product</Link></li>
-      <li className="text-center text-xl text-white hover:bg-slate-400 hover:rounded-lg "><Link  to='/updateproducts'>Update Product</Link></li>
       <li className="text-center text-xl text-white hover:bg-slate-400 hover:rounded-lg  "><Link to='/about'>About</Link></li>
     </ul>
   

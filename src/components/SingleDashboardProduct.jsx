@@ -55,7 +55,7 @@ const SingleDashboardProduct = ({ shoe, onDelete }) => {
         <p><span className="xl font-bold">Price:</span> ${price}</p>
         <p>{description}</p>
         <div className="card-actions justify-end">
-          <Link to={`/details/${id}`} className="btn bg-[#014dcf] text-white">Edit</Link>
+          <Link to={`/updateproducts/${id}`} className="btn bg-[#014dcf] text-white">Edit</Link>
           <button onClick={() => handleDelete(id)} className="btn bg-red-500 text-white">Delete</button>
           <Link to={`/details/${id}`} className="btn bg-[#01cf87] text-white">See Details</Link>
         </div>

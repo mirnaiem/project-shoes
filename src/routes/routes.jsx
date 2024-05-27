@@ -68,8 +68,9 @@ children:[
  element:<Private><AddProducts/></Private>,
 },
   {
- path:'updateproducts',
+ path:'updateproducts/:id',
  element:<Private><UpdateProduct/></Private>,
+ loader:({params})=>fetch(`http://localhost:3000/shoes/${params.id}`)
 },
 ]
  },
