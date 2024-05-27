@@ -1,77 +1,84 @@
 {
- "shoes": [
-   {
-     "id": "001",
-     "title": "Air Max 90",
-     "brand": "Nike",
-     "price": 160,
-     "description": "The Nike Air Max 90 stays true to its roots with the iconic Waffle sole, stitched overlays, and classic TPU accents. Fresh colors give a modern look while Max Air cushioning adds comfort to your journey.",
-     "photo": "https://img.freepik.com/free-photo/ice-coffee-with-whipped-cream_144627-3801.jpg?t=st=1716799914~exp=1716803514~hmac=2d5cc974cc74731cb1a2d75a8df6a38cf7bbd583e0c53e640d58bc5beee431f7&w=740"
-   },
-   {
-     "id": "002",
-     "title": "UltraBoost 21",
-     "brand": "Adidas",
-     "price": 60,
-     "description": "The Adidas UltraBoost 21 brings you the ultimate running experience. It features a precise knit upper, responsive Boost cushioning, and a supportive heel counter to keep you moving comfortably.",
-     "photo": "https://img.freepik.com/premium-photo/hand-holds-hanging-gray-running-sneakers-by-laces-black-wall-hand-with-new-sport-shoe-stability-cushion-running-shoes-close-up_179369-789.jpg?w=360"
-   },
-   {
-     "id": "003",
-     "title": "Classic Leather",
-     "brand": "Reebok",
-     "price": 120,
-     "description": "The Reebok Classic Leather is a timeless shoe with a smooth leather upper for comfort and style. The EVA midsole offers lightweight cushioning, and the rubber outsole delivers durable traction.",
-     "photo": "https://img.freepik.com/premium-photo/gray-sneakers-with-red-laces-white-background_39665-9.jpg?w=1060"
-   },
-   {
-     "id": "004",
-     "title": "Gel-Kayano 27",
-     "brand": "Asics",
-     "price": 80,
-     "description": "The Asics Gel-Kayano 27 is designed for stability and comfort during long runs. It features Gel technology for cushioning, a breathable mesh upper, and a supportive midsole to enhance your stride.",
-     "photo": "https://img.freepik.com/free-photo/derby-shoes-men-formal-wear_53876-96609.jpg?t=st=1716800034~exp=1716803634~hmac=af4bb10806d405302e42b0a4a53f472bc77511f9f2d59e71254653f68ce0ebad&w=360"
-   },
-   {
-     "id": "005",
-     "title": "Speedcross 5",
-     "brand": "Salomon",
-     "price": 160,
-     "description": "The Salomon Speedcross 5 is built for trail running with its aggressive grip, precise foothold, and protection. It ensures a smooth ride on rough terrain with its advanced traction and stability features.",
-     "photo": "https://img.freepik.com/free-photo/close-up-futuristic-sneakers_23-2151005731.jpg?t=st=1716800023~exp=1716803623~hmac=21a15949270461faef188ff8b87b07473592782e4ae813954f79dea442890860&w=1380"
-   },
-   {
-     "id": "006",
-     "title": "Chuck Taylor All Star",
-     "brand": "Converse",
-     "price": 155,
-     "description": "The Converse Chuck Taylor All Star is an iconic sneaker with a classic canvas upper and rubber sole. Its timeless design and versatility make it a staple in any wardrobe.",
-     "photo": "https://img.freepik.com/free-photo/image-pair-red-high-heels-white-background_125540-5545.jpg?t=st=1716800015~exp=1716803615~hmac=b2edb6956d6eb3c73d873b6f326388cace10e6c9e04c14997b4af6826c5fb7c3&w=1060"
-   },
-   {
-     "id": "007",
-     "title": "Gel-Lyte III",
-     "brand": "Asics",
-     "price": 55,
-     "description": "The Asics Gel-Lyte III offers retro style with its split-tongue design and cushioning GEL technology. Its suede and mesh upper delivers both durability and breathability.",
-     "photo": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1652.jpg?t=st=1716800010~exp=1716803610~hmac=10972d5f40b07f084b823c696c98ac0bc728cd2b2e7d8f59c5d7daee6397986b&w=740"
-   },
-   {
-     "id": "008",
-     "title": "Fresh Foam 1080v11",
-     "brand": "New Balance",
-     "price": 70,
-     "description": "The New Balance Fresh Foam 1080v11 provides superior comfort with its plush Fresh Foam midsole, engineered knit upper, and stretchy, supportive design.",
-     "photo": "https://img.freepik.com/premium-photo/male-winter-shoes-beige-background_77190-7927.jpg?w=1060"
-   },
-   {
-     "id": "009",
-     "title": "Clifton 7",
-     "brand": "Hoka One One",
-     "price": 60,
-     "description": "The Hoka One One Clifton 7 is a lightweight and comfortable running shoe with an EVA foam midsole, breathable mesh upper, and a moderate heel bevel for a smooth ride.",
-     "photo": "https://img.freepik.com/free-photo/sports-shoe-pair-design-illustration-generated-by-ai_188544-19642.jpg?t=st=1716799989~exp=1716803589~hmac=512922a3f6b8a838d1c3fe7fa4c16c450d5530f3eae040df23a55b19babfaee4&w=1380"
-   }
-   
- ]
+  "shoes": [
+    {
+      "id": "001",
+      "title": "Air Max 90",
+      "brand": "Nike",
+      "price": 160,
+      "description": "The Nike Air Max 90 stays true to its roots with the iconic Waffle sole, stitched overlays, and classic TPU accents. Fresh colors give a modern look while Max Air cushioning adds comfort to your journey.",
+      "photo": "https://img.freepik.com/free-photo/ice-coffee-with-whipped-cream_144627-3801.jpg?t=st=1716799914~exp=1716803514~hmac=2d5cc974cc74731cb1a2d75a8df6a38cf7bbd583e0c53e640d58bc5beee431f7&w=740"
+    },
+    {
+      "id": "002",
+      "title": "UltraBoost 21",
+      "brand": "Adidas",
+      "price": 60,
+      "description": "The Adidas UltraBoost 21 brings you the ultimate running experience. It features a precise knit upper, responsive Boost cushioning, and a supportive heel counter to keep you moving comfortably.",
+      "photo": "https://img.freepik.com/premium-photo/hand-holds-hanging-gray-running-sneakers-by-laces-black-wall-hand-with-new-sport-shoe-stability-cushion-running-shoes-close-up_179369-789.jpg?w=360"
+    },
+    {
+      "id": "003",
+      "title": "Classic Leather",
+      "brand": "Reebok",
+      "price": 120,
+      "description": "The Reebok Classic Leather is a timeless shoe with a smooth leather upper for comfort and style. The EVA midsole offers lightweight cushioning, and the rubber outsole delivers durable traction.",
+      "photo": "https://img.freepik.com/premium-photo/gray-sneakers-with-red-laces-white-background_39665-9.jpg?w=1060"
+    },
+    {
+      "id": "004",
+      "title": "Gel-Kayano 27",
+      "brand": "Asics",
+      "price": 80,
+      "description": "The Asics Gel-Kayano 27 is designed for stability and comfort during long runs. It features Gel technology for cushioning, a breathable mesh upper, and a supportive midsole to enhance your stride.",
+      "photo": "https://img.freepik.com/free-photo/derby-shoes-men-formal-wear_53876-96609.jpg?t=st=1716800034~exp=1716803634~hmac=af4bb10806d405302e42b0a4a53f472bc77511f9f2d59e71254653f68ce0ebad&w=360"
+    },
+    {
+      "id": "005",
+      "title": "Speedcross 5",
+      "brand": "Salomon",
+      "price": 160,
+      "description": "The Salomon Speedcross 5 is built for trail running with its aggressive grip, precise foothold, and protection. It ensures a smooth ride on rough terrain with its advanced traction and stability features.",
+      "photo": "https://img.freepik.com/free-photo/close-up-futuristic-sneakers_23-2151005731.jpg?t=st=1716800023~exp=1716803623~hmac=21a15949270461faef188ff8b87b07473592782e4ae813954f79dea442890860&w=1380"
+    },
+    {
+      "id": "006",
+      "title": "Chuck Taylor All Star",
+      "brand": "Converse",
+      "price": 155,
+      "description": "The Converse Chuck Taylor All Star is an iconic sneaker with a classic canvas upper and rubber sole. Its timeless design and versatility make it a staple in any wardrobe.",
+      "photo": "https://img.freepik.com/free-photo/image-pair-red-high-heels-white-background_125540-5545.jpg?t=st=1716800015~exp=1716803615~hmac=b2edb6956d6eb3c73d873b6f326388cace10e6c9e04c14997b4af6826c5fb7c3&w=1060"
+    },
+    {
+      "id": "007",
+      "title": "Gel-Lyte III",
+      "brand": "Asics",
+      "price": 55,
+      "description": "The Asics Gel-Lyte III offers retro style with its split-tongue design and cushioning GEL technology. Its suede and mesh upper delivers both durability and breathability.",
+      "photo": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1652.jpg?t=st=1716800010~exp=1716803610~hmac=10972d5f40b07f084b823c696c98ac0bc728cd2b2e7d8f59c5d7daee6397986b&w=740"
+    },
+    {
+      "id": "008",
+      "title": "Fresh Foam 1080v11",
+      "brand": "New Balance",
+      "price": 70,
+      "description": "The New Balance Fresh Foam 1080v11 provides superior comfort with its plush Fresh Foam midsole, engineered knit upper, and stretchy, supportive design.",
+      "photo": "https://img.freepik.com/premium-photo/male-winter-shoes-beige-background_77190-7927.jpg?w=1060"
+    },
+    {
+      "id": "009",
+      "title": "Clifton 7",
+      "brand": "Hoka One One",
+      "price": 60,
+      "description": "The Hoka One One Clifton 7 is a lightweight and comfortable running shoe with an EVA foam midsole, breathable mesh upper, and a moderate heel bevel for a smooth ride.",
+      "photo": "https://img.freepik.com/free-photo/sports-shoe-pair-design-illustration-generated-by-ai_188544-19642.jpg?t=st=1716799989~exp=1716803589~hmac=512922a3f6b8a838d1c3fe7fa4c16c450d5530f3eae040df23a55b19babfaee4&w=1380"
+    },
+    {
+      "id": "010",
+      "title": "Hiking Boots",
+      "brand": "Woodland",
+      "price": "350",
+      "description": "very nice and attractive",
+      "photo": "https://img.freepik.com/premium-photo/black-boots-background-mountains-tourist-boots-mountains-background_726416-12.jpg?w=1060"
+    }
+  ]
 }

@@ -10,6 +10,8 @@ import Register from "../pages/Register";
 import Private from "./private/Private";
 import SeeDetails from "../components/SeeDetails";
 import AllProducts from "../components/AllProducts";
+import AddProducts from "../pages/AddProducts";
+import UpdateProduct from "../pages/UpdateProduct";
 
 
 
@@ -60,7 +62,14 @@ children:[
   {
  path:'allproducts',
  element:<Private><AllProducts/></Private>,
- loader:()=>fetch('http://localhost:3000/shoes')
+},
+  {
+ path:'addproducts',
+ element:<Private><AddProducts/></Private>,
+},
+  {
+ path:'updateproducts',
+ element:<Private><UpdateProduct/></Private>,
 },
 ]
  },
