@@ -1,10 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import GoogleLogin from "../components/GoogleLogin";
 import useAuth from "../hooks/useAuth";
+import { useEffect } from "react";
 
 const Register = () => {
-  const {createUser}=useAuth()
- const handleRegister=(e)=>{
+  const {createUser,user}=useAuth();
+  const navigate=useNavigate();
+  const location=useLocation();
+  const from=location?.state?.from?.pathname || '/';
+ const handleRegister=async (e)=>{
 e.preventDefault()
 const form=e.target;
 const email=form.email.value;
@@ -12,9 +16,14 @@ const password=form.pass.value;
 const confirmPass=form.confirmPass.value;
 console.log(email,password,confirmPass);
 if(password === confirmPass){
-  createUser(email,password)
+  await createUser(email,password);
 }
  }
+ useEffect(()=>{
+  if(user){
+    navigate(from,{replace:true});
+  }
+},[user,from,navigate])
  return (
   <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col justify-evenly lg:flex-row-reverse">

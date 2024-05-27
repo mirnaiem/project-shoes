@@ -1,17 +1,27 @@
-import { Link } from "react-router-dom";
+/* eslint-disable react/no-unescaped-entities */
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import GoogleLogin from "../components/GoogleLogin";
 import useAuth from "../hooks/useAuth";
+import { useEffect } from "react";
 
 const Login = () => {
-  const {signInUser}=useAuth()
-  const handleLogin=(e)=>{
+  const {signInUser,user}=useAuth()
+  const navigate=useNavigate();
+  const location=useLocation();
+  const from=location?.state?.from?.pathname || '/';
+  const handleLogin=async (e)=>{
     e.preventDefault()
     const form=e.target;
     const email=form.email.value;
     const password=form.pass.value;
-    signInUser(email,password)
+    await signInUser(email,password)
     console.log(email,password);
      }
+     useEffect(()=>{
+      if(user){
+        navigate(from,{replace:true})
+      }
+     },[user,from,navigate])
  return (
   <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col justify-evenly lg:flex-row-reverse">
@@ -42,6 +52,7 @@ const Login = () => {
         <GoogleLogin/>
       </form>
       <div className="text-lg mt-3 p-4">
+       
         <h1>Don't Have Any Account? Please <Link className="text-green-500" to="/register">Register!</Link></h1>
       </div>
     </div>
