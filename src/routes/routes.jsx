@@ -8,6 +8,7 @@ import Login from "../pages/Login";
 import Home from "../pages/Home";
 import Register from "../pages/Register";
 import Private from "./private/Private";
+import SeeDetails from "../components/SeeDetails";
 
 
 
@@ -23,8 +24,14 @@ export const router = createBrowserRouter([
    children:[
     {
      path:'/',
-     element:<Home/>
+     element:<Home/>,
+     loader:()=>fetch('http://localhost:3000/shoes')
     },
+    {
+      path:'/details/:id',
+      element:<SeeDetails/>,
+      loader:({params})=>fetch(`http://localhost:3000/shoes/${params.id}`)
+     },
     
     {
      path:'about',

@@ -1,13 +1,15 @@
+import { useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import OurProducts from "../components/OurProducts";
 
 
 
 const Home = () => {
+ const data=useLoaderData();
  return (
   <div >
   <Banner/>
-  <OurProducts/>
+  <OurProducts data={data}/>
   </div>
  );
 };

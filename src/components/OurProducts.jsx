@@ -1,14 +1,16 @@
+/* eslint-disable react/prop-types */
 import SingleProducts from "./SingleProducts";
 
 
-const OurProducts = () => {
+// eslint-disable-next-line react/prop-types
+const OurProducts = ({data}) => {
+console.log(data);
  return (
-<div className="mt-5"> <h1>our products</h1>
-  <div className="flex gap-4 text-center justify-around ">
-<SingleProducts/>
-<SingleProducts/>
-<SingleProducts/>
-
+<div className="my-10"> <h1 className="text-5xl font-semibold text-center mb-10">our products</h1>
+  <div className="flex  flex-wrap gap-y-5 text-center justify-center gap-10 ">
+  {data.map(shoe => (
+  <SingleProducts key={shoe.id} shoe={shoe} />
+))}
   </div></div>
  );
 };

@@ -1,14 +1,21 @@
+/* eslint-disable react/prop-types */
 
-const SingleProducts = () => {
+import { Link } from "react-router-dom";
+
+const SingleProducts = ({shoe}) => {
+  const {id,title,brand, description,photo,price}=shoe;
  return (
   <>
 <div className="card w-96 bg-base-100 shadow-xl">
-  <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+  <figure><img className="w-full h-[300px]" src={photo} alt="Shoes" /></figure>
+  <div className="card-body text-start">
+    <h2 className="card-title font-bold">{title}</h2>
+    <p className="text-xl ">{brand}</p>
+    <p><span className="xl font-bold">Price:</span> ${price}</p>
+    <p>{description}</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+      <button className="btn bg-[#01cf87] text-white"><Link to={`/details/${id}`}>See Details</Link></button>
+      <button className="btn bg-red-500 text-white">Buy Now</button>
     </div>
   </div>
 </div></>
