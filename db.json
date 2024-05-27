@@ -47,38 +47,6 @@
       "price": 155,
       "description": "The Converse Chuck Taylor All Star is an iconic sneaker with a classic canvas upper and rubber sole. Its timeless design and versatility make it a staple in any wardrobe.",
       "photo": "https://img.freepik.com/free-photo/image-pair-red-high-heels-white-background_125540-5545.jpg?t=st=1716800015~exp=1716803615~hmac=b2edb6956d6eb3c73d873b6f326388cace10e6c9e04c14997b4af6826c5fb7c3&w=1060"
-    },
-    {
-      "id": "007",
-      "title": "Gel-Lyte III",
-      "brand": "Asics",
-      "price": 55,
-      "description": "The Asics Gel-Lyte III offers retro style with its split-tongue design and cushioning GEL technology. Its suede and mesh upper delivers both durability and breathability.",
-      "photo": "https://img.freepik.com/free-psd/running-shoes-sneakers-transparent-background_84443-1652.jpg?t=st=1716800010~exp=1716803610~hmac=10972d5f40b07f084b823c696c98ac0bc728cd2b2e7d8f59c5d7daee6397986b&w=740"
-    },
-    {
-      "id": "008",
-      "title": "Fresh Foam 1080v11",
-      "brand": "New Balance",
-      "price": 70,
-      "description": "The New Balance Fresh Foam 1080v11 provides superior comfort with its plush Fresh Foam midsole, engineered knit upper, and stretchy, supportive design.",
-      "photo": "https://img.freepik.com/premium-photo/male-winter-shoes-beige-background_77190-7927.jpg?w=1060"
-    },
-    {
-      "id": "009",
-      "title": "Clifton 7",
-      "brand": "Hoka One One",
-      "price": 60,
-      "description": "The Hoka One One Clifton 7 is a lightweight and comfortable running shoe with an EVA foam midsole, breathable mesh upper, and a moderate heel bevel for a smooth ride.",
-      "photo": "https://img.freepik.com/free-photo/sports-shoe-pair-design-illustration-generated-by-ai_188544-19642.jpg?t=st=1716799989~exp=1716803589~hmac=512922a3f6b8a838d1c3fe7fa4c16c450d5530f3eae040df23a55b19babfaee4&w=1380"
-    },
-    {
-      "id": "010",
-      "title": "Hiking Boots",
-      "brand": "Woodland",
-      "price": "350",
-      "description": "very nice and attractive",
-      "photo": "https://img.freepik.com/premium-photo/black-boots-background-mountains-tourist-boots-mountains-background_726416-12.jpg?w=1060"
     }
   ]
 }

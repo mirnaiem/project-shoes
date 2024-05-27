@@ -1,31 +1,53 @@
+import Swal from "sweetalert2";
 
 const AddProducts = () => {
  
- const handleSubmit=async e=>{
-  e.preventDefault()
-  const form=e.target;
-  const id=form.id.value;
-  const title=form.title.value;
-  const brand=form.brand.value;
-  const price=form.price.value;
-  const description=form.description.value;
-  const photo=form.photo.value;
+ 
 
-  const product={id,title,brand,price,description,photo}
-  
-  // console.log(id,title,brand,price,description,photo);
-await fetch('http://localhost:3000/shoes/',{
- method:"POST",
- headers:{
-  "Content-type":"application/json"
- },
- body:JSON.stringify(product)
-}) .then((res)=>res.json())
-.then((data)=>{
- console.log(data);
- form.reset()
-})
- }
+ const handleSubmit = async (e) => {
+   e.preventDefault();
+   const form = e.target;
+   const id = form.id.value;
+   const title = form.title.value;
+   const brand = form.brand.value;
+   const price = form.price.value;
+   const description = form.description.value;
+   const photo = form.photo.value;
+ 
+   const product = { id, title, brand, price, description, photo };
+ 
+   const result = await Swal.fire({
+     title: "Do you want add this product?",
+     showDenyButton: true,
+     showCancelButton: true,
+     confirmButtonText: "Add",
+     denyButtonText: `Don't Add`
+   });
+ 
+   if (result.isConfirmed) {
+     try {
+       const response = await fetch('http://localhost:3000/shoes/', {
+         method: "POST",
+         headers: {
+           "Content-type": "application/json"
+         },
+         body: JSON.stringify(product)
+       });
+ 
+       const data = await response.json();
+       console.log(data);
+ 
+       Swal.fire("Added!", "", "success");
+       form.reset();
+     } catch (error) {
+       Swal.fire("Error!", "There was an error adding the product.", "error");
+       console.error('Error:', error);
+     }
+   } else if (result.isDenied) {
+     Swal.fire("Product is not saved", "", "info");
+   }
+ };
+ 
  
 
  return (
