@@ -47,6 +47,30 @@
       "price": 155,
       "description": "The Converse Chuck Taylor All Star is an iconic sneaker with a classic canvas upper and rubber sole. Its timeless design and versatility make it a staple in any wardrobe.",
       "photo": "https://img.freepik.com/free-photo/image-pair-red-high-heels-white-background_125540-5545.jpg?t=st=1716800015~exp=1716803615~hmac=b2edb6956d6eb3c73d873b6f326388cace10e6c9e04c14997b4af6826c5fb7c3&w=1060"
+    },
+    {
+      "id": "007",
+      "title": "Gel-Lyte III",
+      "brand": "Asics",
+      "price": "155",
+      "description": "The Asics Gel-Lyte III offers retro style with its split-tongue design and cushioning GEL technology. Its suede and mesh upper delivers both durability and breathability.",
+      "photo": "https://img.freepik.com/free-photo/pair-trainers_144627-3811.jpg?t=st=1716890114~exp=1716893714~hmac=7085e80129a4f8a0a8b5962520601f1829a3362b7efe6778a5cece2c8907df78&w=740"
+    },
+    {
+      "id": "008",
+      "title": "Fresh Foam 1080v11",
+      "brand": "New Balance",
+      "price": "80",
+      "description": "The New Balance Fresh Foam 1080v11 provides superior comfort with its plush Fresh Foam midsole, engineered knit upper, and stretchy, supportive design.",
+      "photo": "https://img.freepik.com/free-photo/pair-trainers_144627-3825.jpg?t=st=1716890204~exp=1716893804~hmac=f06a9230d9088edb4010a93c8ec84fd08fe437329eeb6b704a3e31b6442dcae9&w=740"
+    },
+    {
+      "id": "009",
+      "title": "Clifton 7",
+      "brand": "Hoka One One",
+      "price": "90",
+      "description": "The Hoka One One Clifton 7 is a lightweight and comfortable running shoe with an EVA foam midsole, breathable mesh upper, and a moderate heel bevel for a smooth ride.",
+      "photo": "https://img.freepik.com/free-photo/brown-leather-shoes_1203-7562.jpg?t=st=1716890335~exp=1716893935~hmac=86e2a45adaaddf18b9943eaf9654f57898763857ddef63d8c867c1159a90a29b&w=1060"
     }
   ]
 }

@@ -12,6 +12,7 @@ import SeeDetails from "../components/SeeDetails";
 import AllProducts from "../components/AllProducts";
 import AddProducts from "../pages/AddProducts";
 import UpdateProduct from "../pages/UpdateProduct";
+import NotFound from "../pages/NotFound";
 
 
 
@@ -19,7 +20,7 @@ import UpdateProduct from "../pages/UpdateProduct";
 export const router = createBrowserRouter([
  {
   path:'*',
-  element:<div>Not found</div>
+  element:<NotFound/>
  },
  {
    path: "/",

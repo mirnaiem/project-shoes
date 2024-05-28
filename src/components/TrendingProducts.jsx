@@ -13,8 +13,8 @@ const TrendingProducts = () => {
  
  return (
   <div className="my-10"> <h1 className="text-5xl font-semibold text-center mb-10">Trending Products</h1>
-  <div className="grid grid-cols-3  gap-y-5  gap-10 w-[95%] mx-auto ">
-  {products.slice(3,6).map(shoe => (
+  <div className="flex  flex-wrap gap-y-5 text-center justify-center gap-10 ">
+  {products.slice(3,9).map(shoe => (
   <SingleProducts key={shoe.id} shoe={shoe} />
 ))}
   </div></div>
