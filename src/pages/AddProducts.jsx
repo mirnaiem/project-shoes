@@ -51,9 +51,9 @@ const AddProducts = () => {
  
 
  return (
-  <div className="p-5">
+  <div className="p-5 bg-base-100 my-8">
    <h1 className="text-4xl font-semibold text-center mb-8">Add New Product </h1>
-  <form onSubmit={handleSubmit} className="space-y-4">
+  <form onSubmit={handleSubmit} className="space-y-2 p-5 shadow-2xl bg-gray-400 rounded-xl">
 
    <label className="text-xl"> ID</label>
    <input className="p-4 border-0 border-none  w-full rounded-lg bg-slate-200" type="text" name="id" placeholder="id" />
@@ -69,7 +69,7 @@ const AddProducts = () => {
    <label className="text-xl"> Description</label>
    <input className="p-4 border-none border w-full rounded-lg bg-slate-200" type="text" name="description" placeholder="description" />
 
-   <label className="text-xl"> Photo URl</label>
+   <label className="text-xl"> Photo URL</label>
    <input className="p-4 border-none border w-full rounded-lg bg-slate-200" type="text" name="photo" placeholder="phot url" />
 
    <input className="btn w-full btn-primary" type="submit" value="Add New" />

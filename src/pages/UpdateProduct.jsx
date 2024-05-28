@@ -55,9 +55,9 @@ const UpdateProduct = () => {
 };
 
  return (
-  <div className="p-5">
+  <div  className="p-5 bg-base-100 my-8">
   <h1 className="text-4xl font-semibold text-center mb-8">Update Product </h1>
- <form onSubmit={handleSubmit} className="space-y-4">
+ <form onSubmit={handleSubmit} className="space-y-2 p-5 shadow-2xl bg-gray-400 rounded-xl">
 
  <label className="text-xl"> ID</label>
   <input className="p-4 border-0 border-none  w-full rounded-lg bg-slate-200" 
